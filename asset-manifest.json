@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/IssaDynamicWeb/static/css/main.dd421211.chunk.css",
+    "main.js": "/IssaDynamicWeb/static/js/main.a294bf79.chunk.js",
+    "main.js.map": "/IssaDynamicWeb/static/js/main.a294bf79.chunk.js.map",
+    "runtime-main.js": "/IssaDynamicWeb/static/js/runtime-main.4aa96fad.js",
+    "runtime-main.js.map": "/IssaDynamicWeb/static/js/runtime-main.4aa96fad.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/IssaDynamicWeb/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.8f43ad95.chunk.js": "/IssaDynamicWeb/static/js/2.8f43ad95.chunk.js",
+    "static/js/2.8f43ad95.chunk.js.map": "/IssaDynamicWeb/static/js/2.8f43ad95.chunk.js.map",
+    "index.html": "/IssaDynamicWeb/index.html",
+    "precache-manifest.78a42834a3daf28e7be2c01a2d596862.js": "/IssaDynamicWeb/precache-manifest.78a42834a3daf28e7be2c01a2d596862.js",
+    "service-worker.js": "/IssaDynamicWeb/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/IssaDynamicWeb/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.dd421211.chunk.css.map": "/IssaDynamicWeb/static/css/main.dd421211.chunk.css.map",
+    "static/js/2.8f43ad95.chunk.js.LICENSE.txt": "/IssaDynamicWeb/static/js/2.8f43ad95.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4aa96fad.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.8f43ad95.chunk.js",
+    "static/css/main.dd421211.chunk.css",
+    "static/js/main.a294bf79.chunk.js"
+  ]
+}
