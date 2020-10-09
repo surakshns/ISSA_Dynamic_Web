@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import  Menuitem from './Menuitems.js';
 import './Navbar.css';
+import logo from 'C:/Users/SURAKSH/frontend/firstreact1/src/Components/Navbar/issa-logo.png';
 
 
 class Navbar extends Component{
@@ -14,7 +15,7 @@ clickedeventHandler = () => {
     return (
     <nav className='navbar'>
         <div>
-        <img className={this.state.clicked ? 'rot' : 'logo'} src='./issa-logo.png' width='100%'></img>
+        <img className={this.state.clicked ? 'rot' : 'logo'} src={logo} width='100%'></img>
         <h1 className='title'>ISSA</h1>
         </div>
         <div className='menu-icon' onClick={this.clickedeventHandler}>

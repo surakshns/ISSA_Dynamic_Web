@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './Navbar.css';
+import '../Navbar/Navbar.css';
 import './Footer.css';
+import logo from 'C:/Users/SURAKSH/frontend/firstreact1/src/Components/Navbar/issa-logo.png'
 
 class Footer extends Component{
     render(){
@@ -16,7 +17,7 @@ class Footer extends Component{
                         </ul>
                 </div>
                 <a href="index.html" class="text-center d-flex justify-content-center">
-                    <img className='text-center logo1 d-flex justify-content-center' src='./issa-logo.png' width='100%'></img>
+                    <img className='text-center logo1 d-flex justify-content-center' src={logo} width='100%'></img>
                 </a>
                 <div class="footer-copyright text-center py-3">
                     <a className='contact' href="">Contact Us</a>

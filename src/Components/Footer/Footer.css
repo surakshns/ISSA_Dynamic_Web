@@ -14,7 +14,7 @@
     height: 40px;
     transition: .8s;
     z-index: 3;
-    animation: logorotate .8s ease-in-out    4;
+    animation: logorotate .8s ease-in-out infinite;
     display: block;
     margin-bottom: 20px;
 }
