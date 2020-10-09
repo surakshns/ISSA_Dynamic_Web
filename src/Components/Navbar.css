@@ -1,0 +1,130 @@
+.navbar{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.logo{
+    margin-left: 25px;
+    display: flex;
+    justify-self: start;
+    width: 60px;
+    height: 50px;
+    transition: .8s;
+    z-index: 3;
+    animation: rotate .8s ease-in-out  2;
+    display: inline;
+}
+.rot{
+    margin-left: 25px;
+    display: flex;
+    justify-self: start;
+    width: 60px;
+    height: 50px;
+    transition: .8s;
+    z-index: 3;
+    animation: logorotate .8s ease-in-out  1;
+    display: inline;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+.list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 8px; 
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin: 0px;
+    margin-right: 2rem;
+}
+.nav-items{
+    color: white;
+    text-decoraton: none;
+    padding: 0.5rem 1rem;
+}
+.nav-items:hover {
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(96, 96, 96,0.4);
+    transition: all 0.2s ease-in-out;
+}
+.title{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    color: #009297;
+    display: flex;
+    justify-self: start;
+    font-family: 'Noto Serif', serif;
+    display: inline;
+    margin-left: 10px;
+}
+.menu-icon{
+    opacity: 0;
+}
+
+@keyframes logorotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+@media screen and (max-width: 960px){
+    .navbar{
+        position: relative;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all .8s ease-in-out;
+    }
+    .list.active{
+        background: rgb(17, 17, 17);
+        left: 0px;
+        opacity: 1;
+        transition: all .8s ease-in-out;
+        z-index: 1;
+        padding: 0px;
+    }
+    .nav-items{
+        text-align: center;
+        padding: 1.2rem;
+        width: 100%;
+        display: table;
+        margin: 0px;
+    }
+    .nav-items:hover{
+        background-color: rgba(96, 96, 96,0.4);
+        border-radius: 0px;
+    }
+    .menu-icon{
+        opacity: 1;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        transform: translate(-100%,40%);
+        font-size: 1.8rem;
+    }
+}
