@@ -19,7 +19,6 @@ class App extends Component{
     <div>
       <Navbar />
       <div className='homepage'>
-      <React.Fragment>
         <Navigation />
         <main>
           <Header />
@@ -31,7 +30,6 @@ class App extends Component{
           />
           <Team />
         </main>
-      </React.Fragment>
       </div>
       <Footer />
     </div>
