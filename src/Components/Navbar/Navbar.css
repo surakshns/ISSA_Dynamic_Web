@@ -7,9 +7,6 @@
     overflow: hidden;
     top: 0;
 }
-.start{
-    position: absolute;
-}
 .logo{
     margin-left: 25px;
     display: flex;
