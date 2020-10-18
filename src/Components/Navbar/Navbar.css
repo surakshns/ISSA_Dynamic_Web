@@ -1,7 +1,6 @@
 .navbar{
     background: linear-gradient(-45deg,#00003f,black);
     display: flex;
-    position: fixed;
     justify-content: center;
     align-items: center;
     height: 80px;
@@ -9,7 +8,7 @@
     top: 0;
 }
 .start{
-    
+    position: absolute;
 }
 .logo{
     margin-left: 25px;
