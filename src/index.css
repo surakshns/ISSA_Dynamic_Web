@@ -479,7 +479,7 @@ Navigation Menu
   height: 7rem;
   width: 7rem;
   position: fixed;
-  bottom: 6rem;
+  bottom: 4rem;
   right: 6rem;
   border-radius: 50%;
   z-index: 2000;
@@ -493,7 +493,7 @@ Navigation Menu
   width: 6rem;
   border-radius: 50%;
   position: fixed;
-  bottom: 6.5rem;
+  bottom: 4.5rem;
   right: 6.5rem;
   background-image: radial-gradient(#4b9fe1, #28559a);
   z-index: 1000;
@@ -654,7 +654,7 @@ Section team
   text-align: center;
   overflow: hidden;
   position: relative;
-  margin: 2rem 2rem;
+  margin: 1rem 2rem;
   transition: all 0.5s;
 }
 
