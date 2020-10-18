@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/IssaDynamicWeb/static/css/main.4c9c584d.chunk.css",
-    "main.js": "/IssaDynamicWeb/static/js/main.230be4b6.chunk.js",
-    "main.js.map": "/IssaDynamicWeb/static/js/main.230be4b6.chunk.js.map",
+    "main.css": "/IssaDynamicWeb/static/css/main.d0f824cc.chunk.css",
+    "main.js": "/IssaDynamicWeb/static/js/main.bcc3e641.chunk.js",
+    "main.js.map": "/IssaDynamicWeb/static/js/main.bcc3e641.chunk.js.map",
     "runtime-main.js": "/IssaDynamicWeb/static/js/runtime-main.4aa96fad.js",
     "runtime-main.js.map": "/IssaDynamicWeb/static/js/runtime-main.4aa96fad.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/IssaDynamicWeb/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f2ce6d2f.chunk.js": "/IssaDynamicWeb/static/js/2.f2ce6d2f.chunk.js",
-    "static/js/2.f2ce6d2f.chunk.js.map": "/IssaDynamicWeb/static/js/2.f2ce6d2f.chunk.js.map",
+    "static/js/2.1d02557c.chunk.js": "/IssaDynamicWeb/static/js/2.1d02557c.chunk.js",
+    "static/js/2.1d02557c.chunk.js.map": "/IssaDynamicWeb/static/js/2.1d02557c.chunk.js.map",
     "index.html": "/IssaDynamicWeb/index.html",
-    "precache-manifest.4929fbb8008302b4e0a9201376a68bc5.js": "/IssaDynamicWeb/precache-manifest.4929fbb8008302b4e0a9201376a68bc5.js",
+    "precache-manifest.a640c374eebf7e14d9f529264c3b8518.js": "/IssaDynamicWeb/precache-manifest.a640c374eebf7e14d9f529264c3b8518.js",
     "service-worker.js": "/IssaDynamicWeb/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/IssaDynamicWeb/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.4c9c584d.chunk.css.map": "/IssaDynamicWeb/static/css/main.4c9c584d.chunk.css.map",
-    "static/js/2.f2ce6d2f.chunk.js.LICENSE.txt": "/IssaDynamicWeb/static/js/2.f2ce6d2f.chunk.js.LICENSE.txt",
-    "static/media/issa-logo.png": "/IssaDynamicWeb/static/media/issa-logo.2b7465f8.png"
+    "static/css/main.d0f824cc.chunk.css.map": "/IssaDynamicWeb/static/css/main.d0f824cc.chunk.css.map",
+    "static/js/2.1d02557c.chunk.js.LICENSE.txt": "/IssaDynamicWeb/static/js/2.1d02557c.chunk.js.LICENSE.txt",
+    "static/media/Balachandra DS.jpg": "/IssaDynamicWeb/static/media/Balachandra DS.bf5a11c6.jpg",
+    "static/media/H G Saathvik.jpg": "/IssaDynamicWeb/static/media/H G Saathvik.49821683.jpg",
+    "static/media/Khushi S.jpg": "/IssaDynamicWeb/static/media/Khushi S.9e4e67c4.jpg",
+    "static/media/Nimisha Bellur.jpg": "/IssaDynamicWeb/static/media/Nimisha Bellur.a56586f1.jpg",
+    "static/media/Ruthik Raj N.jpg": "/IssaDynamicWeb/static/media/Ruthik Raj N.7a05187e.jpg",
+    "static/media/Sambhav K Bhandari.jpg": "/IssaDynamicWeb/static/media/Sambhav K Bhandari.1fe8c04b.jpg",
+    "static/media/Soumya Sai Nanduri.jpg": "/IssaDynamicWeb/static/media/Soumya Sai Nanduri.b0eb0628.jpg",
+    "static/media/Suraksh N S.jpg": "/IssaDynamicWeb/static/media/Suraksh N S.1e9a3f5c.jpg",
+    "static/media/issa-logo.png": "/IssaDynamicWeb/static/media/issa-logo.2b7465f8.png",
+    "static/media/index.css": "/IssaDynamicWeb/static/media/timer.c279807e.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.4aa96fad.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.f2ce6d2f.chunk.js",
-    "static/css/main.4c9c584d.chunk.css",
-    "static/js/main.230be4b6.chunk.js"
+    "static/js/2.1d02557c.chunk.js",
+    "static/css/main.d0f824cc.chunk.css",
+    "static/js/main.bcc3e641.chunk.js"
   ]
 }
