@@ -1,5 +1,5 @@
 .foot{
-    background-color: black;
+    background: linear-gradient(-45deg,#00003f,black);
     width: 100%;
     height: 100%;
     padding: 5px;;
@@ -87,9 +87,11 @@
     border-radius: 6px;
     color: black;
     font-weight: 400;
+    margin-right: 5px;
+    font-size: 1.3rem;
 }
 .contact:hover{
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(63, 63, 63);
     text-decoration: none;
     color: white;
     transition: all 0.5s ease-in-out;

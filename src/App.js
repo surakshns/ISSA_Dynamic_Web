@@ -2,26 +2,36 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import Header from "./Components/Header/Header";
+import About from "./Components/About/About";
+import Timer from "./Components/Timer/Timer";
+import Team from "./Components/Team/Team";
+import Navigation from "./Components/Navigation/Navigation";
 
 
 class App extends Component{
+  state = {
+    timer: [3, 16, 36],
+  };
+
   render(){
   return (
     <div>
       <Navbar />
-      <div className='text-center App-header'>
-        Home-yash,vidyashree<br />
-        Events-Sambhav,pooja,Raghu<br />
-        Projects-Rahul,Shivam,udkarsh,Sambhav<br />
-        Suggestion-Box-Shivam,Mohith<br />
-        Registeration-Mohith,Shivam(not requried now)<br/>
-        <div>
-          <br></br>
-          Home-Do it with reference to static website<br />
-          Event-has 2 catagories event of issa and globle events on present ongoing events and other coding events(also include a segment for tech news)<br />
-          Projects-contains a photo of the project discription of it and languages,frameworks used in it<br />
-          Suggestion-You guys discuss and decide<br />
-        </div>
+      <div className='homepage'>
+      <React.Fragment>
+        <Navigation />
+        <main>
+          <Header />
+          <About />
+          <Timer
+            value_days={this.state.timer[0]}
+            value_hours={this.state.timer[1]}
+            value_minutes={this.state.timer[2]}
+          />
+          <Team />
+        </main>
+      </React.Fragment>
       </div>
       <Footer />
     </div>

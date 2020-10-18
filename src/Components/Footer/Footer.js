@@ -20,6 +20,7 @@ class Footer extends Component{
                     <img className='text-center logo1 d-flex justify-content-center' src={logo} width='100%'></img>
                 </a>
                 <div class="footer-copyright text-center py-3">
+                   <a className='contact' href="">Suggestion Box</a>
                     <a className='contact' href="">Contact Us</a>
                 </div>
             </footer>

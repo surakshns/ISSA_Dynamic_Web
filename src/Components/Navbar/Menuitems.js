@@ -18,12 +18,12 @@ const Menuitem = [
     },
     {
         cname: 'nav-items',
-        name: 'Suggestion-Box',
+        name: 'Your-Blog',
         link: '#',
     },
     {
         cname: 'nav-items',
-        name: 'Registeration',
+        name: 'Register',
         link: '#',
     }
 ];
