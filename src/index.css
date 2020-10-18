@@ -83,6 +83,8 @@ html {
   font-weight: 400;
   line-height: 1.7;
   color: #777;
+  position: relative;
+  top: 80px;
 }
 
 main {

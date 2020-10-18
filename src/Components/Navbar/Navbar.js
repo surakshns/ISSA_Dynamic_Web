@@ -14,7 +14,7 @@ clickedeventHandler = () => {
     render(){
     return (
     <nav className='navbar sticky-top'>
-        <div>
+        <div className='start'>
         <img className={this.state.clicked ? 'rot' : 'logo'} src={logo} width='100%'></img>
         <h1 className='title'>ISSA</h1>
         </div>
