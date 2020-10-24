@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/IssaDynamicWeb/static/css/main.c36e63a3.chunk.css",
-    "main.js": "/IssaDynamicWeb/static/js/main.56ace951.chunk.js",
-    "main.js.map": "/IssaDynamicWeb/static/js/main.56ace951.chunk.js.map",
+    "main.css": "/IssaDynamicWeb/static/css/main.cedb4849.chunk.css",
+    "main.js": "/IssaDynamicWeb/static/js/main.85ecc6f8.chunk.js",
+    "main.js.map": "/IssaDynamicWeb/static/js/main.85ecc6f8.chunk.js.map",
     "runtime-main.js": "/IssaDynamicWeb/static/js/runtime-main.4aa96fad.js",
     "runtime-main.js.map": "/IssaDynamicWeb/static/js/runtime-main.4aa96fad.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/IssaDynamicWeb/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.1d02557c.chunk.js": "/IssaDynamicWeb/static/js/2.1d02557c.chunk.js",
-    "static/js/2.1d02557c.chunk.js.map": "/IssaDynamicWeb/static/js/2.1d02557c.chunk.js.map",
+    "static/js/2.c456d812.chunk.js": "/IssaDynamicWeb/static/js/2.c456d812.chunk.js",
+    "static/js/2.c456d812.chunk.js.map": "/IssaDynamicWeb/static/js/2.c456d812.chunk.js.map",
     "index.html": "/IssaDynamicWeb/index.html",
-    "precache-manifest.f146b7f74f9f35193a8e827a7059a3b0.js": "/IssaDynamicWeb/precache-manifest.f146b7f74f9f35193a8e827a7059a3b0.js",
+    "precache-manifest.1ef069f581f7d97a4b2882735db5b084.js": "/IssaDynamicWeb/precache-manifest.1ef069f581f7d97a4b2882735db5b084.js",
     "service-worker.js": "/IssaDynamicWeb/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/IssaDynamicWeb/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.c36e63a3.chunk.css.map": "/IssaDynamicWeb/static/css/main.c36e63a3.chunk.css.map",
-    "static/js/2.1d02557c.chunk.js.LICENSE.txt": "/IssaDynamicWeb/static/js/2.1d02557c.chunk.js.LICENSE.txt",
+    "static/css/main.cedb4849.chunk.css.map": "/IssaDynamicWeb/static/css/main.cedb4849.chunk.css.map",
+    "static/js/2.c456d812.chunk.js.LICENSE.txt": "/IssaDynamicWeb/static/js/2.c456d812.chunk.js.LICENSE.txt",
     "static/media/Balachandra DS.jpg": "/IssaDynamicWeb/static/media/Balachandra DS.bf5a11c6.jpg",
     "static/media/H G Saathvik.jpg": "/IssaDynamicWeb/static/media/H G Saathvik.49821683.jpg",
     "static/media/Khushi S.jpg": "/IssaDynamicWeb/static/media/Khushi S.9e4e67c4.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.4aa96fad.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.1d02557c.chunk.js",
-    "static/css/main.c36e63a3.chunk.css",
-    "static/js/main.56ace951.chunk.js"
+    "static/js/2.c456d812.chunk.js",
+    "static/css/main.cedb4849.chunk.css",
+    "static/js/main.85ecc6f8.chunk.js"
   ]
 }
