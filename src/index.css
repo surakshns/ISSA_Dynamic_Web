@@ -480,7 +480,7 @@ Navigation Menu
   width: 7rem;
   position: fixed;
   bottom: 4rem;
-  right: 6rem;
+  right: 5rem;
   border-radius: 50%;
   z-index: 2000;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
@@ -494,7 +494,7 @@ Navigation Menu
   border-radius: 50%;
   position: fixed;
   bottom: 4.5rem;
-  right: 6.5rem;
+  right: 5.5rem;
   background-image: radial-gradient(#4b9fe1, #28559a);
   z-index: 1000;
   transition: all 0.3s ease-in-out;

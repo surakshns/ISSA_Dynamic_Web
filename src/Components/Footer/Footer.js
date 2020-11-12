@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Navbar/Navbar.css';
 import './Footer.css';
-import logo from 'C:/Users/SURAKSH/frontend/firstreact1/src/Components/Navbar/issa-logo.png'
+import logo from './issa-logo.png'
 
 class Footer extends Component{
     render(){

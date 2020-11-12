@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import  Menuitem from './Menuitems.js';
 import './Navbar.css';
-import logo from 'C:/Users/SURAKSH/frontend/firstreact1/src/Components/Navbar/issa-logo.png';
+import logo from './issa-logo.png';
 
 
 class Navbar extends Component{
