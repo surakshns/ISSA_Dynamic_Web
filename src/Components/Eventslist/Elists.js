@@ -4,7 +4,7 @@ const Elists =[
         name: "AR Event",
         description:"Augmented reality (AR) is an interactive experience of a real-world environment where the objects that reside in the real world are enhanced by computer-generated perceptual information, sometimes across multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory.[1][2] AR can be defined as a system that fulfills three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects.[3] The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment).",
         image: require(`../../img/events-pics/event1.png`),
-        date: "10-9-2020"
+        date: "11-9-2020"
     },
     {
         name:"Coding",
