@@ -10,7 +10,7 @@ import Register from './pages/Register';
 const Main = () => {
   return (
     <Switch> {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/' component={Home}></Route>
+      <Route exact path='/ISSA_Dynamic_Web/' component={Home}></Route>
       <Route exact path='/Events' component={Events}></Route>
       <Route exact path='/Projects' component={Projects}></Route>
       <Route exact path='/Blog' component={Blog}></Route>

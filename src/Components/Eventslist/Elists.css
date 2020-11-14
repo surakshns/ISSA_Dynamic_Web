@@ -1,14 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.fulllist{
+    margin: 40px;
+}
 .elistcard{
-    margin: 20px;
-    display: inline;
+    margin: auto;
 }
 .elistimg{
     padding-top: 15px;
     width: 100%;
-    height: 400px;
+    height: 450px;
 }
 #background-video{
-
     height: 400px;
     width: 100%;
     top: 0;
@@ -28,6 +32,9 @@
     text-align: center;
 }
 @media screen and (max-width: 960px){
+    .fulllist{
+        margin: 5px;
+    }
     .elistcard{
         margin: 0px;
         display: inline;
@@ -35,7 +42,10 @@
     .elistimg{
         padding-top: 15px;
         width: 100%;
-        height: 400px;
+        height: 250px;
     }
-
+    .ediscription{
+        font-size: 12px;
+        text-align: center;
+    }
 }

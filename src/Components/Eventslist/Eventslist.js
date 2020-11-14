@@ -21,7 +21,8 @@ class Eventslist extends Component{
                 <ul>{Elists.map((item, index) => {
                 return(
                 <li key={index}>
-                <div class="card elistcard">
+                <div className="fulllist">
+                <div class="card elistcard col-12">
                 <img class="card-img elistimg" src={item.image} alt="Card image cap" />
                 <div class="card-body">
                 <h5 class="card-title ename">{item.name}</h5>
@@ -29,6 +30,7 @@ class Eventslist extends Component{
                 <p class="card-text d-flex justify-content-center"><small class="text-muted">{item.date}</small></p>
                 </div>
               </div>
+                </div>
               </li>
                     )
                 }
