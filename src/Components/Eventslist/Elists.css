@@ -1,0 +1,41 @@
+.elistcard{
+    margin: 20px;
+    display: inline;
+}
+.elistimg{
+    padding-top: 15px;
+    width: 100%;
+    height: 400px;
+}
+#background-video{
+
+    height: 400px;
+    width: 100%;
+    top: 0;
+    padding: none;
+}
+.eventheading{
+    display: flex;
+    justify-content: center;
+}
+.ename{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.ediscription{
+    font-size: 15px;
+    text-align: center;
+}
+@media screen and (max-width: 960px){
+    .elistcard{
+        margin: 0px;
+        display: inline;
+    }
+    .elistimg{
+        padding-top: 15px;
+        width: 100%;
+        height: 400px;
+    }
+
+}

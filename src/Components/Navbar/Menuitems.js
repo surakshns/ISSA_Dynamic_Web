@@ -4,27 +4,27 @@ const Menuitem = [
     {
         cname: 'nav-items',
         name: 'Home',
-        link: '#',
+        link: '',
     },
     {
         cname: 'nav-items',
         name: 'Events',
-        link: '#',
+        link: '/Events',
     },
     {
         cname: 'nav-items',
         name: 'Projects',
-        link: '#',
+        link: '/Projects',
     },
     {
         cname: 'nav-items',
         name: 'Your-Blog',
-        link: '#',
+        link: '/Blog',
     },
     {
         cname: 'nav-items',
         name: 'Register',
-        link: '#',
+        link: '/Register',
     }
 ];
 export default Menuitem;

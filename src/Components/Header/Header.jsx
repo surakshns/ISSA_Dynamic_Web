@@ -12,7 +12,7 @@ function header(props) {
           </span>
         </h1>
         <a href="#" className="btn btn--white btn--animated">
-          Learn more
+          Register For The Event
         </a>
       </div>
     </header>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import  Menuitem from './Menuitems.js';
 import './Navbar.css';
 import logo from './issa-logo.png';
+import { Link } from "react-router-dom";
 
 
 class Navbar extends Component{
@@ -9,6 +10,10 @@ state={ clicked: false}
 
 clickedeventHandler = () => {
     this.setState({clicked: !this.state.clicked});
+}
+
+closenavbar = () =>{
+    this.setState({clicked: !this.state.clicked}); 
 }
 
     render(){
@@ -24,9 +29,9 @@ clickedeventHandler = () => {
         <div>
             <ul className={this.state.clicked ? 'list active' : 'list'}>{Menuitem.map((item, index) => {
                 return(
-                <li key={index}>
-                    <a className={item.cname} href={item.link}>{item.name}</a>
-                </li>
+                <Link className='links' key={index} to={item.link}>
+                <li className={item.cname} onClick={this.closenavbar}>{item.name}</li>
+                </Link>
                     )
                 }
             )}

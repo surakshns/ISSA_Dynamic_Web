@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ReactDOM.render((
+  <BrowserRouter>
+    <App /> {/* The various pages will be displayed by the `Main` component. */}
+  </BrowserRouter>
+  ), document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
