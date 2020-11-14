@@ -9,7 +9,7 @@ const Menuitem = [
     {
         cname: 'nav-items',
         name: 'Events',
-        link: '/ISSA_Dynamic_Web/Events',
+        link: '/ISSA_Dynamic_Web/',
     },
     {
         cname: 'nav-items',
