@@ -4,7 +4,7 @@ const Menuitem = [
     {
         cname: 'nav-items',
         name: 'Home',
-        link: '',
+        link: '/ISSA_Dynamic_Web/',
     },
     {
         cname: 'nav-items',
