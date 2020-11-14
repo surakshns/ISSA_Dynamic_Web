@@ -32,12 +32,11 @@
     text-align: center;
 }
 @media screen and (max-width: 960px){
-    .fulllist{
+    /* .fulllist{
         margin: 5px;
-    }
+    } */
     .elistcard{
         margin: 0px;
-        display: inline;
     }
     .elistimg{
         padding-top: 15px;
