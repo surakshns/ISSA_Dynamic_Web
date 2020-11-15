@@ -5,6 +5,7 @@ import './Elists.css'
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Next } from 'react-bootstrap/esm/PageItem';
+import Cards from "./Cards";
 // import Vid from './vid.mp4';
 
 class Eventslist extends Component{
@@ -38,22 +39,9 @@ class Eventslist extends Component{
                     )
     })}
                 <div className="heading-upcoming heading-secondary ">Our Events</div>
-                {Elists.map((item, index) => {
+                {Elists.map(( item ) => {
                 return(
-                <li key={index}>
-                <div className="onecard">
-                <div class="card elistcard col-12">
-                <img class="card-img elistimg" src={item.image} alt="Card image cap" />
-                <div class="card-body">
-                <h5 class="card-title ename">{item.name}</h5>
-                <p class="card-text ediscription">{item.description}</p>
-                <i className="fa icons fa-youtube-play" aria-hidden="true"></i>
-                <i className="fa icons fa-instagram" aria-hidden="true"></i>
-                <p class="card-text d-flex justify-content-center"><small class="text-muted">{item.date}</small></p>
-                </div>
-                </div>
-                </div>
-              </li>
+                <Cards image={item.image} name={item.name} description={item.description} date={item.date} />
                     )
                 }
             )}
