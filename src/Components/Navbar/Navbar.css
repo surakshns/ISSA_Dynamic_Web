@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
 .navbar{
     background: linear-gradient(-45deg,#00003f,black);
     display: flex;
