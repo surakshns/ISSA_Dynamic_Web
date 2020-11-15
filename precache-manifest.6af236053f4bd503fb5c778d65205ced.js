@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6ace006dc0f0478f77e1836be53e534",
+    "revision": "7c13b91eec6810b3cd42e87d61f9535e",
     "url": "/ISSA_Dynamic_Web/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ISSA_Dynamic_Web/static/css/2.504f40c9.chunk.css"
   },
   {
-    "revision": "403f6c4838ef3b94d6b0",
-    "url": "/ISSA_Dynamic_Web/static/css/main.3ab162c0.chunk.css"
+    "revision": "2aa5c5093ba0af283588",
+    "url": "/ISSA_Dynamic_Web/static/css/main.a355bea7.chunk.css"
   },
   {
     "revision": "00841decb0acbfb97824",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ISSA_Dynamic_Web/static/js/2.c12ea767.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "403f6c4838ef3b94d6b0",
+    "revision": "2aa5c5093ba0af283588",
     "url": "/ISSA_Dynamic_Web/static/js/main.242d0c77.chunk.js"
   },
   {
