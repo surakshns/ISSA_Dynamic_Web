@@ -1,8 +1,24 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .fulllist{
+    background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+margin-bottom: 0px;
+margin-top: 0px;
+padding-top: 10px;
+padding-bottom: 40px;
+}
+.onecard{
     margin: 40px;
+}
+.onecard:nth-last-child(n){
+    margin-bottom: 0px;
 }
 .elistcard{
     margin: auto;
@@ -32,7 +48,7 @@
     text-align: center;
 }
 @media screen and (max-width: 960px){
-    /* .fulllist{
+    /* .onecard{
         margin: 5px;
     } */
     .elistcard{
