@@ -12,16 +12,15 @@ class Eventslist extends Component{
 
     render(){
         return(
-            <div>
+            <div className="eventpagebackgimg">
                 <div> 
-                <h1 className='heading-secondary'>Events</h1>
                 {/* <video id="background-video" loop autoplay>
                 <source src={Vid} type="video/mp4" />
                 Your browser does not support the video tag.
                 </video> */}
                 </div>
 
-                <ul className="fulllist"><div className="heading-upcoming heading-secondary ">Upcoming Event</div>
+                <ul className="fulllist"><div className="heading-upcoming heading-secondary">Upcoming Event</div>
                 {Elistnextevents.map((item, index) => {
                     return(
                 <li>
