@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ISSA_Dynamic_Web/static/css/main.549385c5.chunk.css",
+    "main.css": "/ISSA_Dynamic_Web/static/css/main.cfdf423d.chunk.css",
     "main.js": "/ISSA_Dynamic_Web/static/js/main.6ff7e65f.chunk.js",
     "main.js.map": "/ISSA_Dynamic_Web/static/js/main.6ff7e65f.chunk.js.map",
     "runtime-main.js": "/ISSA_Dynamic_Web/static/js/runtime-main.6ebc1b3a.js",
@@ -9,10 +9,10 @@
     "static/js/2.c0cf4176.chunk.js": "/ISSA_Dynamic_Web/static/js/2.c0cf4176.chunk.js",
     "static/js/2.c0cf4176.chunk.js.map": "/ISSA_Dynamic_Web/static/js/2.c0cf4176.chunk.js.map",
     "index.html": "/ISSA_Dynamic_Web/index.html",
-    "precache-manifest.cede8e21743497eed12a0a82c214f656.js": "/ISSA_Dynamic_Web/precache-manifest.cede8e21743497eed12a0a82c214f656.js",
+    "precache-manifest.d3df1696d07898a6c64744e495390409.js": "/ISSA_Dynamic_Web/precache-manifest.d3df1696d07898a6c64744e495390409.js",
     "service-worker.js": "/ISSA_Dynamic_Web/service-worker.js",
     "static/css/2.504f40c9.chunk.css.map": "/ISSA_Dynamic_Web/static/css/2.504f40c9.chunk.css.map",
-    "static/css/main.549385c5.chunk.css.map": "/ISSA_Dynamic_Web/static/css/main.549385c5.chunk.css.map",
+    "static/css/main.cfdf423d.chunk.css.map": "/ISSA_Dynamic_Web/static/css/main.cfdf423d.chunk.css.map",
     "static/js/2.c0cf4176.chunk.js.LICENSE.txt": "/ISSA_Dynamic_Web/static/js/2.c0cf4176.chunk.js.LICENSE.txt",
     "static/media/Balachandra DS.jpg": "/ISSA_Dynamic_Web/static/media/Balachandra DS.bf5a11c6.jpg",
     "static/media/H G Saathvik.jpg": "/ISSA_Dynamic_Web/static/media/H G Saathvik.49821683.jpg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.6ebc1b3a.js",
     "static/css/2.504f40c9.chunk.css",
     "static/js/2.c0cf4176.chunk.js",
-    "static/css/main.549385c5.chunk.css",
+    "static/css/main.cfdf423d.chunk.css",
     "static/js/main.6ff7e65f.chunk.js"
   ]
 }
