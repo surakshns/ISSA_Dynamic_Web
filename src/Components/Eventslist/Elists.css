@@ -10,7 +10,6 @@ body{
     justify-content: center;
 }
 .eventpagebackgimg{
-    transform: translateY(2rem);
     background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
     height: 100%;
     background-repeat: no-repeat;
@@ -21,9 +20,9 @@ body{
     margin-top: 0px;
 }
 .fulllist{
-
     padding-top: 10px;
     padding-bottom: 40px;
+    margin-bottom: 0px;
 }
 .onecard{
     margin: 12rem;

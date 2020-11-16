@@ -40,7 +40,9 @@ class Eventslist extends Component{
                 <div className="heading-upcoming heading-secondary ">Our Events</div>
                 {Elists.map(( item ) => {
                 return(
+                <ScrollAnimation animateIn="moveInLeft" duration="1s" animateOut="moveInLeft" >
                 <Cards image={item.image} name={item.name} description={item.description} date={item.date} />
+                </ScrollAnimation>
                     )
                 }
             )}
