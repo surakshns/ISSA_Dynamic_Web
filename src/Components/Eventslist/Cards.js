@@ -10,8 +10,7 @@ function Cards( props ) {
                 <div class="card-body">
                 <h5 class="card-title ename">{props.name}</h5>
                 <p class="card-text ediscription">{props.description}</p>
-                <i className="fa icons fa-youtube-play" aria-hidden="true"></i>
-                <i className="fa icons fa-instagram" aria-hidden="true"></i>
+                <div>{props.children}</div>
                 <p class="card-text d-flex justify-content-center"><small class="text-muted">{props.date}</small></p>
                 </div>
                 </div>

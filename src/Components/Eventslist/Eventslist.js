@@ -23,25 +23,23 @@ class Eventslist extends Component{
                 <ul className="fulllist"><div className="heading-upcoming heading-secondary">Upcoming Event</div>
                 {Elistnextevents.map((item, index) => {
                     return(
-                <li>
-                <div className="onecard">
-                <div class="card elistcard col-12">
-                <img class="card-img elistimg" src={item.image} alt="Card image cap" />
-                <div class="card-body">
-                <h5 class="card-title ename">{item.name}</h5>
-                <p class="card-text ediscription">{item.description}</p>
+                        <Cards image={item.image} name={item.name} description={item.description} date={item.date} >
                 <a className="buttonforevent">Register&nbsp;Now<i className="fa fa-pen-square" aria-hidden="true"></i></a>
-                </div>
-                </div>
-                </div>
-                </li>
+                </Cards>
+                
                     )
     })}
                 <div className="heading-upcoming heading-secondary ">Our Events</div>
                 {Elists.map(( item ) => {
                 return(
                 <ScrollAnimation animateIn="moveInLeft" duration="1s" animateOut="moveInLeft" >
-                <Cards image={item.image} name={item.name} description={item.description} date={item.date} />
+                <Cards image={item.image} name={item.name} description={item.description} date={item.date} >
+                <div className="iconcontainer">
+                <a href={item.youtube}><i className="fa icons fa-youtube-play" aria-hidden="true"></i></a>
+                <a href={item.instagram}><i className="fa icons fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                
+                </Cards>
                 </ScrollAnimation>
                     )
                 }

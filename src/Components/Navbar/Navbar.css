@@ -2,6 +2,9 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 .navbar{
     background: linear-gradient(-45deg,#00003f,black);
     display: flex;
@@ -56,17 +59,18 @@
 .list .nav-items::before {
 	content: "";
 	display: block;
-	height: 2px;
+	height: 3px;
 	width: 100%;
 	background-color: #ffffff;
 	display: fixed;
-	position: absolute;
-    top: 0;
+	position: relative;
+    top: -10px;
+    left: 0;
     width: 0%;
     transition: all ease-in-out 1.2s;
 }
 .list .nav-items:hover::before{
-    width: 8%;
+    width: 100%;
   background-color: #000000;
 }
 .nav-items:hover {
@@ -90,7 +94,6 @@
 .menu-icon{
     opacity: 0;
 }
-
 @keyframes logorotate {
     0%{
       transform: rotate(0deg);
@@ -126,6 +129,7 @@
         left: -100%;
         opacity: 1;
         transition: all .8s ease-in-out;
+        grid-gap: 0px;
     }
     .list.active{
         background: linear-gradient(-45deg,#00003f,black);
@@ -134,13 +138,14 @@
         transition: all .5s ease-in-out;
         z-index: 1;
         padding: 0px;
+        margin: 0px !important;
     }
     .nav-items{
         text-align: center;
-        padding: 1.8rem;
+        padding: 1.2rem;
         width: 100%;
         display: table;
-        margin: 0px;
+        margin: 0px !important;
     }
     .nav-items:hover{
         background-color: rgba(96, 96, 96,0.4);
@@ -153,7 +158,7 @@
         top: 0;
         right: 0;
         color: white;
-        transform: translate(-100%,20%);
+        transform: translate(-50%,18%);
         font-size: 3.8rem;
     }
 }

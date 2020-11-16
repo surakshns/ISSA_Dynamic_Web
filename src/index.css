@@ -462,7 +462,7 @@ Section Countdown
 @media (max-width: 50rem) {
   .countdown-timer {
     clip-path: polygon(0 10rem, 100% 0, 100% 130rem, 0 100%);
-    margin-top: -15rem;
+    margin-top: -10rem;
   }
 }
 

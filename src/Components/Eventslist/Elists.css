@@ -5,6 +5,9 @@
 body{
     overflow-x: hidden;
 }
+a:hover{
+    text-decoration: none;
+}
 .heading-secondary{
     display: flex;
     justify-content: center;
@@ -80,16 +83,21 @@ body{
     text-decoration: none;
 }
 .buttonforevent:hover{
-    background: linear-gradient(to left, #4b9fe1, #3778c2);
+    background: #277bdb;
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+.iconcontainer{
+    display: flex;
+    justify-content: center;
 }
 .icons{
     display: flex;
     justify-content: center;
     font-size: 3em;
-    margin: 2rem;
+    margin: 1rem 3rem;
+    color: black;
 }
 .fa-pen-square{
     margin: 0rem 1rem;
@@ -127,7 +135,7 @@ body{
         text-decoration: none;
     }
     .eventpagebackgimg{
-        background-attachment: unset;
+        background-attachment: scroll;
     }
 }
 @media screen and (min-width: 1550px){
