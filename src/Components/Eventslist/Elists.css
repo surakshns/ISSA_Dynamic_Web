@@ -12,7 +12,7 @@ body{
 .eventpagebackgimg{
     background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
     height: 100%;
-    background-position-y: top;
+    background-position-y: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -20,6 +20,8 @@ body{
     margin-bottom: 0px;
     margin-top: 0px;
     transition: all 1s ease-in-out;
+    transform-style:flat;
+
 }
 .fulllist{
     padding-top: 10px;
@@ -69,6 +71,7 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    transform: skewY(1deg) skewX(15deg) scale(1.1);
 }
 .buttonforevent{
     margin: 1rem 8rem;
