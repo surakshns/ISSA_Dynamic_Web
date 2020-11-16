@@ -12,12 +12,14 @@ body{
 .eventpagebackgimg{
     background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
     height: 100%;
+    background-position-y: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     margin-bottom: 0px;
     margin-top: 0px;
+    transition: all 1s ease-in-out;
 }
 .fulllist{
     padding-top: 10px;
