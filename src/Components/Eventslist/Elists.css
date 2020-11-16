@@ -11,14 +11,13 @@ body{
 }
 .eventpagebackgimg{
     background-image: url('https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
-    height: fit-content;
-    background-position-y: bottom;
-    background-repeat: repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
     transition: all 1s ease-in-out;
     transform-style:flat;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
 }
 .fulllist{
     padding-top: 10px;
