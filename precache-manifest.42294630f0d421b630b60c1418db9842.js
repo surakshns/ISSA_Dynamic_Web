@@ -1,31 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f322ca9d2e4ff6437e43f5ffa357091e",
+    "revision": "4b0bb136c07bfb062fe65f05ef05abd8",
     "url": "/ISSA_Dynamic_Web/index.html"
   },
   {
-    "revision": "12394e4ecb9cfa7aa6d9",
+    "revision": "2f79eeb0787fde3d34e2",
     "url": "/ISSA_Dynamic_Web/static/css/2.504f40c9.chunk.css"
   },
   {
-    "revision": "298a07d991bc23db81ef",
-    "url": "/ISSA_Dynamic_Web/static/css/main.b0feb274.chunk.css"
+    "revision": "d32d0c6b0e471b90254c",
+    "url": "/ISSA_Dynamic_Web/static/css/main.0f773db3.chunk.css"
   },
   {
-    "revision": "12394e4ecb9cfa7aa6d9",
-    "url": "/ISSA_Dynamic_Web/static/js/2.c0cf4176.chunk.js"
+    "revision": "2f79eeb0787fde3d34e2",
+    "url": "/ISSA_Dynamic_Web/static/js/2.ce410087.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/ISSA_Dynamic_Web/static/js/2.c0cf4176.chunk.js.LICENSE.txt"
+    "url": "/ISSA_Dynamic_Web/static/js/2.ce410087.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "298a07d991bc23db81ef",
-    "url": "/ISSA_Dynamic_Web/static/js/main.5d9e0a1a.chunk.js"
+    "revision": "d32d0c6b0e471b90254c",
+    "url": "/ISSA_Dynamic_Web/static/js/main.d2edf97b.chunk.js"
   },
   {
     "revision": "b4981c176ca5e0e9738d",
     "url": "/ISSA_Dynamic_Web/static/js/runtime-main.6ebc1b3a.js"
+  },
+  {
+    "revision": "224c11b7760adaf5c0d892fc453b7316",
+    "url": "/ISSA_Dynamic_Web/static/media/1.224c11b7.jpg"
+  },
+  {
+    "revision": "fc7c4c3b19f1d012222d759bb003e4e6",
+    "url": "/ISSA_Dynamic_Web/static/media/2.fc7c4c3b.jpg"
+  },
+  {
+    "revision": "f80b236ae4cff69b4701c8d43747ca7a",
+    "url": "/ISSA_Dynamic_Web/static/media/3.f80b236a.jpg"
+  },
+  {
+    "revision": "0da318b323f53ef94e648c6015697200",
+    "url": "/ISSA_Dynamic_Web/static/media/5.0da318b3.jpg"
   },
   {
     "revision": "bf5a11c6c28d40d4adce009b92331340",
@@ -60,8 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ISSA_Dynamic_Web/static/media/Suraksh N S.1e9a3f5c.jpg"
   },
   {
-    "revision": "7b689286049c38308604eaab29e2904c",
-    "url": "/ISSA_Dynamic_Web/static/media/event1.7b689286.png"
+    "revision": "52e5ebcbe59f707ebeaf3c4e183ffd99",
+    "url": "/ISSA_Dynamic_Web/static/media/background-pc-3.52e5ebcb.jpg"
+  },
+  {
+    "revision": "0b0cd2c6e8b37b229bdf2452f067981b",
+    "url": "/ISSA_Dynamic_Web/static/media/background-pc.0b0cd2c6.jpg"
   },
   {
     "revision": "2b7465f8394d89e9c9ffaa68e5f9159b",
