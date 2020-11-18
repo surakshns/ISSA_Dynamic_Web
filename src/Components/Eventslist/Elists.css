@@ -137,7 +137,7 @@ a:hover{
         background-image: url('../../img/events-pics/background-pc-3.jpg');
         background-repeat: repeat;
         background-attachment: local;
-        background-size: auto;
+        background-size: cover;
     }
 }
 @media screen and (min-width: 1550px){
