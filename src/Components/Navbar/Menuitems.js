@@ -14,17 +14,17 @@ const Menuitem = [
     {
         cname: 'nav-items',
         name: 'Projects',
-        link: '/Projects',
+        link: '/ISSA_Dynamic_Web///',
     },
     {
         cname: 'nav-items',
         name: 'Your-Blog',
-        link: '/Blog',
+        link: '/ISSA_Dynamic_Web////',
     },
     {
         cname: 'nav-items',
         name: 'Register',
-        link: '/Register',
+        link: '/ISSA_Dynamic_Web/////',
     }
 ];
 export default Menuitem;
